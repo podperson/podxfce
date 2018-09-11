@@ -1,13 +1,6 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxforum.com
-##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
@@ -103,5 +96,5 @@ sudo pacman -S --noconfirm --needed gvfs-smb
 # echo "Reboot and enjoy"
 
 echo "################################################################"
-echo "#########   samba  software installed           ################"
+echo "#########   140 samba  software POded           ################"
 echo "################################################################"

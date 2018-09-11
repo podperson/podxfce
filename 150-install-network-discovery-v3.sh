@@ -1,13 +1,6 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxforum.com
-##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
@@ -24,5 +17,5 @@ sudo pacman -S --noconfirm --needed nss-mdns
 sudo sed -i 's/dns/mdns dns wins/g' /etc/nsswitch.conf
 
 echo "################################################################"
-echo "####       network discovery  software installed        ########"
+echo "####       150 network discovery  software POded        ########"
 echo "################################################################"

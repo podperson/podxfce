@@ -1,13 +1,6 @@
 #!/bin/bash
 set -e
-##################################################################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxforum.com
-##################################################################################################################
+#####################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
@@ -29,12 +22,12 @@ sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
 sudo pacman -S tamsyn-font --noconfirm --needed
 
 echo "################################################################"
-echo "####        Fonts from Arch Linux repo have been installed        ####"
+echo "####        Fonts from Arch Linux repo have been POded      ####"
 echo "################################################################"
 
 
 echo "################################################################"
-echo "####        Installing fonts for conkies                    ####"
+echo "####            PODing fonts for conkies                    ####"
 echo "################################################################"
 
 [ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
@@ -51,5 +44,5 @@ fc-cache -fv ~/.fonts
 
 
 echo "################################################################"
-echo "#########   Fonts have been copied and loaded   ################"
+echo "######  700 PODed Fonts have been copied and loaded  ###########"
 echo "################################################################"

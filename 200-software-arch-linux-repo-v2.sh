@@ -1,13 +1,6 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxforum.com
-##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
@@ -46,10 +39,10 @@ echo "Installing category Games"
 echo "Installing category Graphics"
 
 #sudo pacman -S --noconfirm --needed darktable
-sudo pacman -S --noconfirm --needed gimp
+#sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed gnome-font-viewer
 sudo pacman -S --noconfirm --needed gpick
-sudo pacman -S --noconfirm --needed inkscape
+#sudo pacman -S --noconfirm --needed inkscape
 #sudo pacman -S --noconfirm --needed pinta
 sudo pacman -S --noconfirm --needed ristretto
 #sudo pacman -S --noconfirm --needed
@@ -58,10 +51,10 @@ echo "Installing category Internet"
 
 sudo pacman -S --noconfirm --needed chromium
 #sudo pacman -S --noconfirm --needed filezilla
-sudo pacman -S --noconfirm --needed firefox
+#sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
-sudo pacman -S --noconfirm --needed transmission-cli
-sudo pacman -S --noconfirm --needed transmission-gtk
+#sudo pacman -S --noconfirm --needed transmission-cli
+#sudo pacman -S --noconfirm --needed transmission-gtk
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Multimedia"
@@ -75,7 +68,7 @@ sudo pacman -S --noconfirm --needed pragha
 sudo pacman -S --noconfirm --needed simplescreenrecorder
 #sudo pacman -S --noconfirm --needed smplayer
 sudo pacman -S --noconfirm --needed vlc
-#sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed smplayer smplayer-themes smplayer-skins
 
 echo "Installing category Office"
 
@@ -154,5 +147,5 @@ sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  a
 
 
 echo "################################################################"
-echo "#### Software from standard Arch Linux Repo installed  #########"
+echo "#### 200 Software from standard Arch Linux Repo POded  #########"
 echo "################################################################"

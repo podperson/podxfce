@@ -1,13 +1,6 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxforum.com
-##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
@@ -24,5 +17,5 @@ sudo pacman -S volumeicon --noconfirm --needed
 sudo pacman -S playerctl --noconfirm --needed
 
 echo "################################################################"
-echo "#########   sound software software installed   ################"
+echo "#########   110 sound software software POded   ################"
 echo "################################################################"
